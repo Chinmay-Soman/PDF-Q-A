@@ -17,7 +17,7 @@ from my_rag import RAGSysstem  # Make sure this matches the uploaded filename
 # 🔐 Enter your Gemini API Key
 # ===============================
 import getpass
-API_KEY = getpass.getpass("AIzaSyDVxsY5RFOGkJYvgQ9e_QzG9rYePEYgLYw")
+API_KEY = getpass.getpass("api key")
 
 # ✅ Initialize RAG system
 rag = RAGSysstem(api_key=API_KEY)
